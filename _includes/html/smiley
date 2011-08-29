@@ -1,0 +1,58 @@
+<script type="text/javascript">
+<!--
+
+function replaceText() {
+
+if (document.getElementById("post")) {
+bodyText = document.getElementById("post");
+theText = bodyText.innerHTML;
+
+theText = theText.replace(/;\)/g,'<img src="http://ecylmz.com/file/smiley/wink.png" alt=";)" />');
+theText = theText.replace(/;-\)/g,'<img src="http://ecylmz.com/file/smiley/wink.png" alt=";-)" />');
+
+theText = theText.replace(/:D/g,'<img src="http://ecylmz.com/file/smiley/laugh.png" alt=":D" />');
+theText = theText.replace(/:-D/g,'<img src="http://ecylmz.com/file/smiley/laugh.png" alt=":-D" />');
+
+theText = theText.replace(/B\)/g,'<img src="http://ecylmz.com/file/smiley/cool.png" alt="B)" />');
+theText = theText.replace(/B-\)/g,'<img src="http://ecylmz.com/file/smiley/cool.png" alt="B-)" />');
+
+theText = theText.replace(/:@/g,'<img src="http://ecylmz.com/file/smiley/angry.png" alt=":@" />');
+theText = theText.replace(/:-@/g,'<img src="http://ecylmz.com/file/smiley/angry.png" alt=":-@" />');
+
+theText = theText.replace(/:-\(/g,'<img src="http://ecylmz.com/file/smiley/sad.png" alt=":-(" />');
+theText = theText.replace(/:\(/g,'<img src="http://ecylmz.com/file/smiley/sad.png" alt=":(" />');
+
+theText = theText.replace(/:o/g,'<img src="http://ecylmz.com/file/smiley/wow.png" alt=":o" />');
+theText = theText.replace(/:O/g,'<img src="http://ecylmz.com/file/smiley/wow.png" alt=":O" />');
+theText = theText.replace(/:-o/g,'<img src="http://ecylmz.com/file/smiley/wow.png" alt=":-o" />');
+theText = theText.replace(/:-O/g,'<img src="http://ecylmz.com/file/smiley/wow.png" alt=":-O" />');
+
+theText = theText.replace(/:-p/g,'<img src="http://ecylmz.com/file/smiley/tongue.png" alt=":-p" />');
+theText = theText.replace(/:-P/g,'<img src="http://ecylmz.com/file/smiley/tongue.png" alt=":-P" />');
+theText = theText.replace(/:P/g,'<img src="http://ecylmz.com/file/smiley/tongue.png" alt=":P" />');
+
+theText = theText.replace(/:-\)/g,'<img src="http://ecylmz.com/file/smiley/smile.png" alt=":-)" />');
+theText = theText.replace(/:\)/g,'<img src="http://ecylmz.com/file/smiley/smile.png" alt=":)" />');
+
+theText = theText.replace(/:v/g,'<img src="http://ecylmz.com/file/smiley/devil.png" alt=":v" />');
+theText = theText.replace(/:d/g,'<img src="http://ecylmz.com/file/smiley/daydream.png" alt=":d" />');
+theText = theText.replace(/:c/g,'<img src="http://ecylmz.com/file/smiley/cry.png" alt=":c" />');
+theText = theText.replace(/:L/g,'<img src="http://ecylmz.com/file/smiley/love.png" alt=":L" />');
+theText = theText.replace(/:~/g,'<img src="http://ecylmz.com/file/smiley/sick.png" alt=":~" />');
+theText = theText.replace(/:r/g,'<img src="http://ecylmz.com/file/smiley/rotfl.png" alt=":r" />');
+theText = theText.replace(/:i/g,'<img src="http://ecylmz.com/file/smiley/inverted.png" alt=":i" />');
+theText = theText.replace(/:h/g,'<img src="http://ecylmz.com/file/smiley/hug.png" alt=":h" />');
+theText = theText.replace(/:lol/g,'<img src="http://ecylmz.com/file/smiley/lolz.png" alt=":lol" />');
+theText = theText.replace(/:f/g,'<img src="http://ecylmz.com/file/smiley/sweat.png" alt=":f" />');
+theText = theText.replace(/:e/g,'<img src="http://ecylmz.com/file/smiley/dance.gif" alt=":e" />');
+theText = theText.replace(/:b/g,'<img src="http://ecylmz.com/file/smiley/bow.gif" alt=":b" />');
+theText = theText.replace(/:mj/g,'<img src="http://ecylmz.com/file/smiley/MJ.gif" alt=":mj" />');
+
+// http://eternalthinker.blogspot.com/2009/04/smileys-for-your-blog.html
+
+bodyText.innerHTML = theText;
+}
+}
+
+-->
+</script>

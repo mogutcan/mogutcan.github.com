@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+
+/*
+ * =============================================================================
+ * Siteye özel Baz CSS
+ * =============================================================================
+ */
+
+body {
+background-color: none;
+background-image:url('../chrome/background/test.jpg')
+}
+
+.site {
+-moz-border-radius: 1em;
+-webkit-border-radius: 1em;
+}
+
+a {
+color:#1a2f57;
+}
+
+a:visited {
+color:#455470;
+}
