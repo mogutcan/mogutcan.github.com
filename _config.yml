@@ -73,7 +73,7 @@ param:
         # flick adresi (ör. http://flickr.com/photos/roktas)
         flickr: http://flickr.com
         # facebook adresi (ör. http://facebook.com/roktas)
-        facebook: <a href="http://facebook.com/m.ogutcan"> F </a>
+        facebook: http://facebook.com/m.ogutcan
         # özet akışı adresi (ör. http://feeds.feedburner.com/roktas)
         feed: http://feeds.feedburner.com
 
