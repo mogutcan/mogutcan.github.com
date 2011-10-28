@@ -9,9 +9,9 @@ Vim etkili kod/yazı yazmayı sağlarken hızlanmayı da sağlıyor.
 Komutlar :
 
 
-vim deneme.txt 	-> deneme.txt adında bir dosya oluşturur.
+    vim deneme.txt 	         -> deneme.txt adında bir dosya oluşturur.
 
-i               -> vim de yazı yazma moduna geçer(insert)
+    i                            -> vim de yazı yazma moduna geçer(insert)
 
 ESC 		-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
 		   için her defasında esc tusuna basılmalı.
