@@ -38,9 +38,9 @@ l 	       			        -> Sağa gider
 
     $ 					-> Satır sonuna git
 
-    2$ 					-> Bir alttaki satırın sonuna git
+    2$  	        	        -> Bir alttaki satırın sonuna git
 
-    5$ 	        			-> 4 alttaki satırın sonuna git
+    5$          			-> 4 alttaki satırın sonuna git
 
     33w 				-> 33 kelime ileri git
 
