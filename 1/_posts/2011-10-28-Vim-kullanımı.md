@@ -13,7 +13,7 @@ Komutlar :
 
     i                            	-> vim de yazı yazma moduna geçer(insert)
 
-    ESC 				-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
+    ESC 	          		-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
        	    	  			   için her defasında esc tusuna basılmalı.
 
     :q 				        -> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
