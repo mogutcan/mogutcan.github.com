@@ -9,34 +9,34 @@ Vim etkili kod/yazı yazmayı sağlarken hızlanmayı da sağlıyor.
 Komutlar :
 
 
-    	vim deneme.txt 	         	-> deneme.txt adında bir dosya oluşturur.
+    vim deneme.txt 	         	-> deneme.txt adında bir dosya oluşturur.
 
-    	i                            	-> vim de yazı yazma moduna geçer(insert)
+    i                            	-> vim de yazı yazma moduna geçer(insert)
 
-     	ESC 				-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
+    ESC 				-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
        	    	  			   için her defasında esc tusuna basılmalı.
 
-       :q 				-> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
+    :q 				        -> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
 
-       :wq 				-> Yaz ve çık
+    :wq 				-> Yaz ve çık
 
-    	h 				-> Metin üzerinde sola gider
+    h 				        -> Metin üzerinde sola gider
 
-    	l 	       			-> Sağa gider
+    l 	       			        -> Sağa gider
 
-k 		-> Yukarı
+    k 					-> Yukarı
 
-j 		-> Asağı
+    j 					-> Asağı
 
 Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
 
-fm 		-> "Sadece" bulundugu satırda ileriye doğru  'm' araması yapar.
+    fm 					-> "Sadece" bulundugu satırda ileriye doğru  'm' araması yapar.
 
-Fa 		-> "Sadece" bulundugu satırda geriye doğru  'a' araması yapar.
+    Fa 					-> "Sadece" bulundugu satırda geriye doğru  'a' araması yapar.
 
-0 		-> Satır başına git
+    0 					-> Satır başına git
 
-$ 		-> Satır sonuna git
+    $ 					-> Satır sonuna git
 
 2$ 		-> Bir alttaki satırın sonuna git
 
