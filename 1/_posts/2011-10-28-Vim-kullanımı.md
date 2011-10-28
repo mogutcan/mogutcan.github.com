@@ -9,26 +9,26 @@ Vim etkili kod/yazı yazmayı sağlarken hızlanmayı da sağlıyor.
 Komutlar :
 
 
-    vim deneme.txt                      -> deneme.txt adında bir dosya oluşturur.
+vim deneme.txt                      -> deneme.txt adında bir dosya oluşturur.
 
     i                            	-> vim de yazı yazma moduna geçer(insert)
 
-    ESC 	          		-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
+ESC 	          		-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
        	    	  			   için her defasında esc tusuna basılmalı.
 
-    :q 				        -> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
+:q 				        -> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
 
-    :wq 				-> Yaz ve çık
+:wq 				-> Yaz ve çık
 
-    h 				        -> Metin üzerinde sola gider
+h 				        -> Metin üzerinde sola gider
 
-    l 	       			        -> Sağa gider
+l 	       			        -> Sağa gider
 
     k 					-> Yukarı
 
     j 					-> Asağı
 
-Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
+  Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
 
     fm 					-> "Sadece" bulundugu satırda ileriye doğru  'm' araması yapar.
 
@@ -97,10 +97,11 @@ Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
 
     G 					-> Dosya sonuna git
 
-    ~ 					-> İmlecin bulundugu yerdeki harfi kücük/büyük harfle değiştir
+    ~ 					-> İmlecin bulundugu yerdeki harfi kücük/büyük harfle
+                                           değiştir
     4~ 					-> önündeki 4 karakteri kücük/büyük harfe dönüştür.
 
-    :split 	        		-> Ekranı pencerelere böl
+    :split 	         		-> Ekranı pencerelere böl
 
     vim -O a.c b.c  			-> Dikey pencerelerde 2 dosya açar.
 
@@ -108,9 +109,11 @@ Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
 
     CTRL+W 				-> Yatay ve dikey pencereler arası geçiş.
 
-    v 					-> Visual mod.Bu modda fare ile hareket ettirilen satırlar renklenir.
+    v 					-> Visual mod.Bu modda fare ile hareket ettirilen satırlar 
+                                           renklenir.
 
-    > 					-> Bulundugu satırı shift genişliği kadar kaydırır(Visual modda)
+    > 					-> Bulundugu satırı shift genişliği kadar kaydırır
+                                           (Visual modda)
 
     :syntax on 				-> Tanınmayan dosya türlerinde metni renklendirir
 
