@@ -4,7 +4,12 @@ title: Vim kullanımı
 ---
 
 
+<<<<<<< HEAD
 	Vim linux üzerinde kullanılan text editörlerinden birisidir.Her ne kadar
+=======
+
+Vim linux üzerinde kullanılan text editörlerinden birisidir.Her ne kadar
+>>>>>>> 5b8a60aec11cb55dc204ace1173bde3dcf80e89d
 karmaşık gibi görünse de meraklı kullanıcılar vim editörünü kullandıkça
 öğreniyor.
 	Vim yazı/kod yazmayı etkili kılıp hızlanmayı sağlıyor.
