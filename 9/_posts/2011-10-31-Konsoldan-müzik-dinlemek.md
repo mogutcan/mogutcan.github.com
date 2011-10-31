@@ -1,3 +1,7 @@
+---
+layout: post
+title: Konsoldan müzik dinlemek
+---
 Konsoldan müzik dinlemek basit bir işlemin ardından mümkün olabiliyor.
 
 Bunun için önce paketimizi yükleyelim:
