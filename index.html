@@ -3,6 +3,21 @@ layout: default
 title: Mehmet Öğütcan-Ondokuz Mayıs Üniversitesi
 ---
 <html>
+
+
+<head>
+
+
+<base href="http://www.ajaxdaddy.com/media/demos/play/1/slideshow-viewer/slideshow-viewer/" />
+
+
+<style>
+
+</style>
+
+</head>
+
+
 <body>
 <div id="home">
 <object classid="clsid27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,19,0" width="800" height="250">
@@ -42,6 +57,27 @@ title: Mehmet Öğütcan-Ondokuz Mayıs Üniversitesi
 </p>
 
  
+<script type="text/javascript" src="javascript/slide.js"></script>
+<script type="text/javascript">
+<!--
+  var viewer = new PhotoViewer();
+  viewer.add('images/img1.jpg');
+  viewer.add('images/img2.jpg');
+  viewer.add('images/img3.jpg');
+//--></script>
+
+<center>
+<a onclick="return viewer.show(0)" href="images/img1.jpg">
+<img width="70" height="70" alt="" src="images/img1_t.jpg" border="0"/> </a>
+<a onclick="return viewer.show(1)" href="images/img2.jpg">
+<img width="70" height="70" alt="" src="images/img2_t.jpg" border="0"/> </a>
+<a onclick="return viewer.show(2)" href="images/img3.jpg">
+<img width="70" height="70" alt="" src="images/img3.jpg" border="0"/> </a>
+<br />
+<a href="javascript:void(viewer.show(0))">Slideshow</a>
+</center>
+
+
 
 
 </body>
