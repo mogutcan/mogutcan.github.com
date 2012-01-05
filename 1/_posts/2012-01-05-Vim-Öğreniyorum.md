@@ -10,128 +10,161 @@ Vim nedir ?
 Vim bir metin editörüdür.Vim;Öğrenmesi zahmetli olduğu kadar zevkli olan ,öğrenildikten sonra 
 vazgeçemeyeceğiniz bir editör.
 
+Komut satırından:
 
-Önemli Uyarı : 
+	vim -O deneme1.c deneme2.c  
+-> Dikey pencerelerde .c uzantılı 2 dosya açar.
+
+	vim -o deneme3.c deneme4.c
+-> Yatay pencerelerde .c uzantılı 2 dosya açar.
+
+	CTRL+W 		
+-> Yatay ve dikey pencereler arası geçiş.
+
+Önemli Uyarı: 
+
 BİR ELEKTRİK KESİNTİSİ VEYA SİSTEMİ RESTART YAPTIGINIZDA
 EGER O AN VİM İLE CALISIYORSANIZ VİM BİRDAHAKİ ACISINIZDA O DOSYAYA
 SADECE OKUMA İZNİ VERİR.
-YAZMA İZNİ İÇİN   "   :w!   "
+YAZMA İZNİ İÇİN 
+    
+    :w!  
 
-   komutu verilmelidir.
------------------------------------------------------------
-vim deneme.txt 	-> deneme.txt adında bir dosya oluşturur.
+komutu verilmelidir.
 
-i               -> vim de yazı yazma moduna geçer(insert)
+Kullanılabilir komutlar :
 
-ESC 		-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek
-		   için her defasında esc tusuna basılmalı.
+    vim deneme.txt
+-> deneme.txt adında bir dosya oluşturur.
 
-:q 		-> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
+    i               
+-> vim de yazı yazma moduna geçer(insert)
 
-:wq 		-> Yaz ve çık
+    ESC
+-> ESC tuşu ile komut verme moduna geçilir.Yani komut vermek için her defasında esc tusuna basılmalı.
 
-h 		-> Metin üzerinde sola gider
+    :q
+-> Çıkmak için kullanılır.Kaydetmeden çıkılırsa hata verir.
 
-l 	       	-> Sağa gider
+    :wq
+-> Yaz ve çık
 
-k 		-> Yukarı
+    h
+-> Metin üzerinde sola gider
 
-j 		-> Asağı
+    l
+-> Sağa gider
+
+    k
+-> Yukarı
+
+    j
+-> Asağı
 
 Not:Yön tuşları yerine h-l-j-k kullanımı hızlanmayı sağlar.
 
-fm 		-> "Sadece" bulundugu satırda ileriye doğru  'm' araması yapar.
+    fm 
+-> "Sadece" bulundugu satırda ileriye doğru  'm' araması yapar.
 
-Fa 		-> "Sadece" bulundugu satırda geriye doğru  'a' araması yapar.
+    Fa
+-> "Sadece" bulundugu satırda geriye doğru  'a' araması yapar.
 
-0 		-> Satır başına git
+    0
+-> Satır başına git
 
-$ 		-> Satır sonuna git
+    $
+-> Satır sonuna git
 
-2$ 		-> Bir alttaki satırın sonuna git
+    2$
+-> Bir alttaki satırın sonuna git
 
-5$ 	        -> 4 alttaki satırın sonuna git
+    5$
+-> 4 alttaki satırın sonuna git
 
-33w 		-> 33 kelime ileri git
+    33w
+-> 33 kelime ileri git
 
-14b 		-> 14 kelime geri git
+    14b
+-> 14 kelime geri git
 
-G 		-> Dosyanın son satırına git
+    G
+-> Dosyanın son satırına git
 
-1G 		-> Dosyanın ilk satırına git
+    1G
+-> Dosyanın ilk satırına git
 
-24G 		-> Dosyanın 24.satırına git
+    24G
+-> Dosyanın 24.satırına git
 
-33w 		-> 33 kelime ileri git
+    33w
+-> 33 kelime ileri git
 
-14b 		-> 14 kelime geri git
+    14b
+-> 14 kelime geri git
 
-G 		-> Dosyanın son satırına git
+    G 		
+-> Dosyanın son satırına git
 
-1G 		-> Dosyanın ilk satırına git
+    1G
+-> Dosyanın ilk satırına git
 
-24G 		-> Dosyanın 24.satırına git
 
-33w 		-> 33 kelime ileri git
+	:set number
+-> Ekranın soluna satır numaraları ekler!
+	
+	:set nonumber 	
+-> Satır numaralarını kaldırır.
 
-14b 		-> 14 kelime geri git
+    /linux
+-> metin içinde linux kelimesini arar
 
-G 		-> Dosyanın son satırına git
+	:set hlsearch 	
+-> Aranan kelimeleri renklendirir.
+	
+	:set nohlsearch 
+-> hlsearch özelliğini kapatır.
 
-1G 		-> Dosyanın ilk satırına git
+	yy 		
+-> Bulundugu Satırı kopyalar
+	
+	3y 		
+-> 3 satırı kopyalar
 
-24G 		-> Dosyanın 24.satırına git
+	.
+-> Kopyalanan satırı yapıştırır
 
-33w 		-> 33 kelime ileri git
+	G
+-> Dosya sonuna git
 
-14b 		-> 14 kelime geri git
+	~
+-> İmlecin bulundugu yerdeki harfi kücük/büyük harfle değiştir
+	
+	4~
+-> önündeki 4 karakteri kücük/büyük harfe dönüştür.
 
-G 		-> Dosyanın son satırına git
+	:split
+-> Ekranı pencerelere böl
 
-1G 		-> Dosyanın ilk satırına git
+	
 
-24G 		-> Dosyanın 24.satırına git
+	v
+-> Visual mod
+-> Bu modda fare ile hareket ettirilen satırlar renklenir.
 
-:set number 	-> Ekranın soluna satır numaraları ekler!
-:set nonumber 	-> Satır numaralarını kaldırır.
+	> 		
+-> Bulundugu satırı shift genişliği kadar kaydırır(Visual modda)
 
-/linux 		-> İleriye doğru giderek Linux kelimesini arar.
+	:syntax on 	
+-> Tanınmayan dosya türlerinde metni renklendirir
 
-:set hlsearch 	-> Aranan kelimeleri renklendirir.
-:set nohlsearch -> hlsearch özelliğini kapatır.
+	:set shiftwidth=4
+-> Tab boşluğunu ayarlar
 
-yy 		-> Bulundugu Satırı kopyalar
-3y 		-> 3 satırı kopyalar
+	:mkvimrc dosyaismi
+-> set vb yapılan ayarların saklanmasını sağlar.
 
-. 		-> Kopyalanan satırı yapıştırır
-
-G 		-> Dosya sonuna git
-
-~ 		-> İmlecin bulundugu yerdeki harfi kücük/büyük harfle değiştir
-4~ 		-> önündeki 4 karakteri kücük/büyük harfe dönüştür.
-
-:split 	        -> Ekranı pencerelere böl
-
-vim -O a.c b.c  -> Dikey pencerelerde 2 dosya açar.
-
-vim -o a.c b.c  -> Yatay pencerelerde 2 dosya açar.(a.c ve b.c)
-
-CTRL+W 		-> Yatay ve dikey pencereler arası geçiş.
-
-v 		-> Visual mod
-		-> Bu modda fare ile hareket ettirilen satırlar renklenir.
-
-> 		-> Bulundugu satırı shift genişliği kadar kaydırır(Visual modda)
-
-:syntax on 	-> Tanınmayan dosya türlerinde metni renklendirir
-
-:set shiftwidth=4 	-> Tab boşluğunu ayarlar
-
-:mkvimrc dosyaismi 	-> set vb yapılan ayarların saklanmasını sağlar.
-
-:source dosyaismi 	-> kaydedilen ayarları çağırır.
-
-						SON
+	:source dosyaismi
+-> kaydedilen ayarları çağırır.
 
 
 
