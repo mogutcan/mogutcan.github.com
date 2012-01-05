@@ -27,7 +27,7 @@ organization: 19
 # bu siteyi üreten github deposu (ör. roktas.github.com)
 # dikkat!  depo çoğunlukla <account>.github.com formundadır.  fakat başka
 # bir depo da olabilir.  url parametresi için yazılan açıklamayı okuyun.
-repository: mogutcan.github.com
+repository: mogutcan.github.com/set
 
 # üretilen sitenin web adresi ne?  ör. "http://roktas.github.com".
 # CNAME kaydımız varsa bu adresi giriyoruz.  dikkat!  bu site
