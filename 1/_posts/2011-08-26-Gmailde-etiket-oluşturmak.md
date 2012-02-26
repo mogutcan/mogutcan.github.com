@@ -24,7 +24,7 @@ Etiketi oluşturduktan sonra ekranın sağ üstündeki
 
 Ardından aşağıdaki ekran geliyor önümüze:
 
-    <img src = "/images/2.jpg" width ="200" > </img>
+   <img src = "/images/2.jpg" width ="400" > </img>
 
         
 
@@ -43,7 +43,7 @@ Burada "Kime" kısmına yönlendirmek istediğimiz etiketin mail adresini yazıy
 
    Bu kısımları mutlaka işaretliyoruz.Aşağıda gösterdiğim gibi:
 
-   <img src = "/images/3.jpg" width ="200" > </img>
+   <img src = "/images/3.jpg" width ="400" > </img>
        
 
 Önemli:Eğer etiket uygula ve uyguladığımız etiketi seçmezsek açtığımız etikete hiçbir yerden mail gelmeyecektir.
@@ -56,7 +56,7 @@ Yani yaptığımız işlemlerin amacına ulaşması için bu kısım kesinlikle 
    
    
 
-   <img src = "/images/1.jpg" width ="200" > </img>                   
+   <img src = "/images/1.jpg" width ="400" > </img>                   
 
 
                    
