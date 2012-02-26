@@ -24,7 +24,7 @@ Etiketi oluşturduktan sonra ekranın sağ üstündeki
 
 Ardından aşağıdaki ekran geliyor önümüze:
 
-   *[Ekran Görüntüsü 1](http://www.flickr.com/photos/61038764@N06/5559244265/)*
+   <img src = "/images/2.jpg" width ="200" > </img>
         
 
 
@@ -42,7 +42,7 @@ Burada "Kime" kısmına yönlendirmek istediğimiz etiketin mail adresini yazıy
 
    Bu kısımları mutlaka işaretliyoruz.Aşağıda gösterdiğim gibi:
 
-   *[Ekran Görüntüsü 2](http://www.flickr.com/photos/61038764@N06/5559271129/)*
+   <img src = "/images/3.jpg" width ="200" > </img>
         
 
 Önemli:Eğer etiket uygula ve uyguladığımız etiketi seçmezsek açtığımız etikete hiçbir yerden mail gelmeyecektir.
@@ -54,8 +54,7 @@ Yani yaptığımız işlemlerin amacına ulaşması için bu kısım kesinlikle 
    İşte oluşturduğumuz etiketler ve posta kutumuzun son hali:artık daha düzenli daha toplu ...
    
    
-   *[Ekran Görüntüsü 3](http://www.flickr.com/photos/61038764@N06/5559311299/)*
-                   
+   <img src = "/images/1.jpg" width ="200" > </img>                   
                 
 
                
