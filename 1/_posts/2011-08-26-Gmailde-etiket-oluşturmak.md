@@ -24,7 +24,7 @@ Etiketi oluşturduktan sonra ekranın sağ üstündeki
 
 Ardından aşağıdaki ekran geliyor önümüze:
 
-   <img src = "/images/2.jpg" width ="800" height="200"> </img>
+   <img src = "/images/2.jpg" width ="900" height="200"> </img>
 
         
 
