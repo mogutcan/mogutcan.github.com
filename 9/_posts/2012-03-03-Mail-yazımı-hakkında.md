@@ -1,3 +1,9 @@
+---
+layout: post
+title  : Mail yazımı hakkında
+
+---
+
 Merhaba arkadaşlar 
 
 Son günlerde bana özellikle 1.sınıftaki arkadaşlardan gelen aynı yanlışları
