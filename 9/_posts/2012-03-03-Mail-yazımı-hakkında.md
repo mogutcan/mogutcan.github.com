@@ -6,8 +6,7 @@ title  : Mail yazımı hakkında
 
 Merhaba arkadaşlar 
 
-Son günlerde bana özellikle 1.sınıftaki arkadaşlardan gelen aynı yanlışları
-içeren maillerle çok sık karşılaştığım için buradan bir kez daha belirtmek
+Son günlerde aynı yanlışları içeren maillerle çok sık karşılaştığım için buradan bir kez daha belirtmek
 istiyorum.Eminim bu yanlışlarla karşılaşan başka arkadaşlarımda vardır.
 
 Herşeyden önce siz daha bu maili açmadan "mail konusunu ( Bir mail nasıl
