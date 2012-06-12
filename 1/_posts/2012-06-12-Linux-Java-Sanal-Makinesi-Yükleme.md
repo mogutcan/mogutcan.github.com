@@ -8,9 +8,9 @@ Linux işletim sistemine Java Sanal Makinesi (JVM) nasıl kurulur
 
 Adım 1:
 
- http://www.oracle.com/technetwork/java/javase/downloads/index.html
+ [Oracle'ın resmi sitesinden](http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 
-adresinden Java Development Kit (JDK) en son sürümü .tar.gz uzantısı
+Java Development Kit (JDK) en son sürümü .tar.gz uzantısı
 secilerek indirilir.
 
 
@@ -23,7 +23,7 @@ Adım 2:
 
  
 
-   tar zxvf jdk-7u<version>-linux-x64.tar.gz
+       tar zxvf jdk-7u<version>-linux-x64.tar.gz
 
 şeklinde sıkıştırılmış dosya açılır.
 
